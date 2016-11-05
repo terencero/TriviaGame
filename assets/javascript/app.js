@@ -7,10 +7,13 @@ window.onload = function(){
 
 var time = 30;
 
+
 function reset(){
   time = 30;
   $('#timer').html('00:30');
-
+  $('.restart').hide();
+  $('.questions').show();
+ 
 }
 
 function start(){
@@ -30,7 +33,8 @@ function count(){
 	$('#timer').html(converted);
 	if(time == 0){
 		clearInterval(counter);
-		alert('Times up!')
+		$('.questions').hide();
+		$('<div class="restart">Times up! Click the reset button to try again!</div>').appendTo('body');
 	}
 }
 
