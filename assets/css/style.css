@@ -1,4 +1,32 @@
 body {
-	background-image: url(../images/upfeathers.png);
-	color: red;
+	background-image: url(../images/dragonball.jpg);
+	background-position: center;
+}
+
+.questions {
+	text-align: center;
+	color: #05054D;
+	font-weight: bolder;
+	font-size: 1.5em;
+}
+
+.questions label {
+	color: #F3062E;
+	font-weight: bold;
+	font-size: 	.75em;
+	background: beige;
+	border-radius: 6px;
+}
+
+.questions legend {
+	background: beige;
+	border-radius: 6px;
+}
+
+.heading {
+	text-align: center;
+	padding: 43px;
+	font-size: 2em;
+	font-weight: bolder;
+	color: #B84A00;
 }

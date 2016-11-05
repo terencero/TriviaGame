@@ -9,31 +9,70 @@
 	
 </head>
 <body>
-	<h1>Trivia</h1>
-	<div id="timer">00:30
-	</div>
-	<div class="buttons">
-			<button id="start">Start</button>
-            <button id="stop">Stop</button>
-            <button id="reset">Reset</button>
+	<div class="heading">
+		<h1>Dragon Ball Trivia</h1>
+			<div id="timer">00:30</div>
+				<div class="buttons">
+						<button id="start">Start</button>
+			            <button id="stop">Stop</button>
+			            <button id="reset">Reset</button>
+				</div>
 	</div>
 
 	<div class="questions">
-		<div>
-			<h2>question 1</h2>
-		</div>
-		<div>
-			<h2>question 2</h2>
-		</div>
-		<div>
-			<h2>question 3</h2>
-		</div>
-		<div>
-			<h2>question 4</h2>
-		</div>
-		<div>
-			<h2>question 5</h2>
-		</div>
+	
+			<form action="" method="post">
+			  <fieldset>
+			    <legend>What special ability does Piccolo have?</legend>
+			    <input type="radio" id="q1">
+			    <label for="radio">The ability to speak to animals.</label>
+			    <input type="radio" id="q2">
+				<label for="radio">The ability to regenerate lost limbs.</label>
+				<input type="radio" id="q3">
+				<label for="radio">The ability to breathe through his skin.</label>
+				</fieldset>
+				<br>
+				<fieldset>
+				<legend>Which of these is a move performed by Goku?</legend>
+			    <input type="radio" id="q1">
+			    <label for="radio">Kaio-ken Kamehameha</label>
+			    <input type="radio" id="q2">
+				<label for="radio">Galick Gun</label>
+				<input type="radio" id="q3">
+				<label for="radio">Special Beam Cannon</label>
+				</fieldset>
+				<br>
+				<fieldset>
+				<legend>What body part is responsible for transforming a Saiyan into a Great Ape?</legend>
+			    <input type="radio" id="q1">
+			    <label for="radio">Arm</label>
+			    <input type="radio" id="q2">
+				<label for="radio">Tail</label>
+				<input type="radio" id="q3">
+				<label for="radio">Leg</label>
+				</fieldset>
+				<br>
+				<fieldset>
+				<legend>What celestial event needs to occur in order for a Saiyan to transform into a Great Ape?</legend>
+			    <input type="radio" id="q1">
+			    <label for="radio">Solar Eclipse</label>
+			    <input type="radio" id="q2">
+				<label for="radio">Lunar Eclipse</label>
+				<input type="radio" id="q3">
+				<label for="radio">Full moon</label>
+				</fieldset>
+				<br>
+				<fieldset>
+				<legend>Who was responsible for Vegeta's father's death?</legend>
+			    <input type="radio" id="q1">
+			    <label for="radio">Kal-El</label>
+			    <input type="radio" id="q2">
+				<label for="radio">Cell</label>
+				<input type="radio" id="q3">
+				<label for="radio">Frieza</label>	
+			  </fieldset>
+			</form>
+		
 	</div>
 
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
