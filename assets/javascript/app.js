@@ -52,11 +52,15 @@ function timeConverter(t){
   return minutes + ":" + seconds;
 }
 
+function scoreCounter(){
+	//if($('#q1a2') || $('#q2a1') || $('#q3a2') || $('#q4a3') || $('#q5a3')){
+	if ($('input:radio:checked')){
+		return 
+		console.log('clicked');
+	}
+}
+
 function endTimer(){
 
 }
 
-// reset();
-// start();
-// stop();
-// count();
